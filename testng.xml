@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="classes" >
+<test name="Landtrack Login">
+		<classes>
+			<class name="testScripts.Login" />
+			<class name="testScripts.LoginParallel" />
+			<class name="testScripts.LoginParallel1" />
+			<class name="testScripts.LoginParallel2" />
+			<class name="testScripts.LoginParallel3" />
+		</classes>
+	</test> 
+
+</suite> <!-- Suite -->
